@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="icons8-light-100 (1).png">
+  <title>bulb toggelling</title>
+</head>
+<body>
+  <div class="container">
+    <button class="bulb" onclick="lighton();"> LIGHT ON</button>
+    <img  id ="light" src="icons8-light-100.png"  >
+    <button class="bulb" onclick="lightof();"> LIGHT OFF</button>
+  </div>
+</body>
+<script>
+  function lighton(){
+    document.getElementById("light").src="icons8-light-100 (1).png";
+    document.getElementById("light").style.backgroundColor="yellow";
+    document.getElementById("light").style.borderRadius="50%";
+    }
+   
+   function lightof(){
+    document.getElementById("light").src="icons8-light-100.png";
+    document.getElementById("light").style.backgroundColor="lightblue";
+    document.getElementById("light").style.borderRadius="50%";
+   }
+    function def(){
+      document.getElementById("light").src="icons8-light-100.png";
+    }
+    lightof();
+</script>
+</html>

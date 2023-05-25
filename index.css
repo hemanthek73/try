@@ -1,0 +1,24 @@
+body{
+  
+  width: 100%;
+  height: 100%;
+}
+.container{
+  height: 700px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top, rgb(164, 229, 51),rgb(69, 127, 81));
+}
+#light{
+  width: 300px;
+  padding: 20px;
+  margin: 30px;
+}
+.bulb{
+  width:110px;
+  height: 40px;
+  border-radius: 20%;
+  background: transparent;
+  box-shadow: 2px 4px 0 rgb(107, 103, 126);
+}
